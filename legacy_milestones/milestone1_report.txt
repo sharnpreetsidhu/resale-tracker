@@ -1,0 +1,40 @@
+Milestone 1 Progress Report
+
+1. Project Summary
+
+Our project is an AI-powered resale market tracker that helps users estimate the market value of resale items and decide whether an item is a good deal, fair price, or overpriced. For the first version, we narrowed the project to collectible/trading cards. The system takes inputs such as player name, card name, grade, recent sale prices, and asking price, then outputs an estimated market value, deal rating, and recommendation.
+
+2. What Has Been Accomplished So Far
+
+So far, we created a small sample resale dataset using trading card examples. The dataset includes item details such as player name, year, card name, grade, sale price, site, and sale date. This gives us sample data to test the basic pricing system.
+
+We also built a baseline price estimation method using the average of recent sale prices. The program filters the dataset based on the user’s selected card and grade, calculates an estimated market value, and compares it to the asking price.
+
+A basic deal classification system has also been created. If the asking price is much lower than the estimated value, the item is labelled as a good deal. If it is close to the estimated value, it is labelled as fair price. If it is much higher, it is labelled as overpriced. The system then gives a simple recommendation such as buy, hold/consider, or avoid.
+
+3. What Has Fallen Behind
+
+The main part that has fallen behind is collecting a larger and cleaner real-world dataset. Right now, the system uses a small sample dataset, which is enough for testing the baseline version but not enough for accurate real market predictions.
+
+The machine learning model has not been fully implemented yet. For Milestone 1, we focused on the simpler baseline average-price method first. The user interface and trend graph are also not fully completed yet, but they are planned for the next milestone.
+
+4. Any Project Changes
+
+The main project change is that we narrowed the scope to trading cards first instead of trying to support clothing, shoes, and cards at the same time. This makes the project more realistic and lets us build a working minimal version before expanding to more categories.
+
+The AI approach has not fully changed, but we are starting with a baseline average-price estimator before adding supervised learning and classification in Milestone 2.
+
+Appendix: Sample Output
+
+Input:
+Player: Connor Bedard
+Card: Young Guns
+Grade: 9
+Asking Price: $190
+
+Output:
+Estimated Market Value: $225.00
+Asking Price: $190.00
+Difference From Market: 15.56%
+Deal Rating: Good Deal
+Recommendation: Buy

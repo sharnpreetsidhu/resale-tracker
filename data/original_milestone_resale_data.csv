@@ -1,0 +1,97 @@
+player,year,card_name,grade,sale_price,site,sale_date
+Connor Bedard,2023,Young Guns,9,220,eBay,2026-06-01
+Connor Bedard,2023,Young Guns,9,240,130point,2026-06-05
+Connor Bedard,2023,Young Guns,9,210,eBay,2026-06-09
+Connor Bedard,2023,Young Guns,9,230,Marketplace,2026-06-12
+Connor Bedard,2023,Young Guns,10,390,eBay,2026-06-03
+Connor Bedard,2023,Young Guns,10,410,130point,2026-06-08
+Connor Bedard,2023,Young Guns,10,380,eBay,2026-06-13
+Connor Bedard,2023,Young Guns,10,420,Marketplace,2026-06-18
+Victor Wembanyama,2023,Prizm Rookie,9,180,eBay,2026-06-01
+Victor Wembanyama,2023,Prizm Rookie,9,195,130point,2026-06-05
+Victor Wembanyama,2023,Prizm Rookie,9,170,eBay,2026-06-09
+Victor Wembanyama,2023,Prizm Rookie,9,185,Marketplace,2026-06-12
+Victor Wembanyama,2023,Prizm Rookie,10,315,eBay,2026-06-02
+Victor Wembanyama,2023,Prizm Rookie,10,340,130point,2026-06-07
+Victor Wembanyama,2023,Prizm Rookie,10,325,eBay,2026-06-14
+Victor Wembanyama,2023,Prizm Rookie,10,355,Marketplace,2026-06-21
+Shohei Ohtani,2018,Topps Rookie,8,120,eBay,2026-06-01
+Shohei Ohtani,2018,Topps Rookie,8,135,130point,2026-06-05
+Shohei Ohtani,2018,Topps Rookie,8,110,eBay,2026-06-09
+Shohei Ohtani,2018,Topps Rookie,8,125,Marketplace,2026-06-12
+Shohei Ohtani,2018,Topps Rookie,9,175,eBay,2026-06-03
+Shohei Ohtani,2018,Topps Rookie,9,190,130point,2026-06-08
+Shohei Ohtani,2018,Topps Rookie,9,180,eBay,2026-06-15
+Shohei Ohtani,2018,Topps Rookie,9,200,Marketplace,2026-06-20
+Sidney Crosby,2005,Upper Deck Rookie,8,310,eBay,2026-06-02
+Sidney Crosby,2005,Upper Deck Rookie,8,335,130point,2026-06-06
+Sidney Crosby,2005,Upper Deck Rookie,8,300,Marketplace,2026-06-10
+Sidney Crosby,2005,Upper Deck Rookie,8,320,eBay,2026-06-16
+Sidney Crosby,2005,Upper Deck Rookie,9,455,eBay,2026-06-04
+Sidney Crosby,2005,Upper Deck Rookie,9,480,130point,2026-06-11
+Sidney Crosby,2005,Upper Deck Rookie,9,465,eBay,2026-06-17
+Sidney Crosby,2005,Upper Deck Rookie,9,495,Marketplace,2026-06-22
+Auston Matthews,2016,Young Guns,8,135,eBay,2026-06-01
+Auston Matthews,2016,Young Guns,8,145,130point,2026-06-05
+Auston Matthews,2016,Young Guns,8,130,eBay,2026-06-09
+Auston Matthews,2016,Young Guns,8,150,Marketplace,2026-06-13
+Auston Matthews,2016,Young Guns,9,165,eBay,2026-06-02
+Auston Matthews,2016,Young Guns,9,175,130point,2026-06-06
+Auston Matthews,2016,Young Guns,9,160,eBay,2026-06-10
+Auston Matthews,2016,Young Guns,9,170,Marketplace,2026-06-14
+LeBron James,2003,Topps Rookie,8,850,eBay,2026-06-01
+LeBron James,2003,Topps Rookie,8,900,130point,2026-06-05
+LeBron James,2003,Topps Rookie,8,875,eBay,2026-06-09
+LeBron James,2003,Topps Rookie,8,920,Marketplace,2026-06-13
+LeBron James,2003,Topps Rookie,9,1250,eBay,2026-06-02
+LeBron James,2003,Topps Rookie,9,1325,130point,2026-06-06
+LeBron James,2003,Topps Rookie,9,1280,eBay,2026-06-10
+LeBron James,2003,Topps Rookie,9,1360,Marketplace,2026-06-14
+Kobe Bryant,1996,Topps Rookie,8,720,eBay,2026-06-01
+Kobe Bryant,1996,Topps Rookie,8,760,130point,2026-06-06
+Kobe Bryant,1996,Topps Rookie,8,735,eBay,2026-06-12
+Kobe Bryant,1996,Topps Rookie,8,780,Marketplace,2026-06-18
+Kobe Bryant,1996,Topps Rookie,9,1100,eBay,2026-06-03
+Kobe Bryant,1996,Topps Rookie,9,1160,130point,2026-06-09
+Kobe Bryant,1996,Topps Rookie,9,1135,eBay,2026-06-15
+Kobe Bryant,1996,Topps Rookie,9,1195,Marketplace,2026-06-21
+Michael Jordan,1986,Fleer Rookie,7,5200,eBay,2026-06-01
+Michael Jordan,1986,Fleer Rookie,7,5450,130point,2026-06-05
+Michael Jordan,1986,Fleer Rookie,7,5100,eBay,2026-06-09
+Michael Jordan,1986,Fleer Rookie,7,5600,Marketplace,2026-06-14
+Michael Jordan,1986,Fleer Rookie,8,7900,eBay,2026-06-02
+Michael Jordan,1986,Fleer Rookie,8,8300,130point,2026-06-07
+Michael Jordan,1986,Fleer Rookie,8,8050,eBay,2026-06-12
+Michael Jordan,1986,Fleer Rookie,8,8500,Marketplace,2026-06-19
+Tom Brady,2000,Bowman Rookie,8,1450,eBay,2026-06-01
+Tom Brady,2000,Bowman Rookie,8,1525,130point,2026-06-05
+Tom Brady,2000,Bowman Rookie,8,1490,eBay,2026-06-09
+Tom Brady,2000,Bowman Rookie,8,1580,Marketplace,2026-06-13
+Tom Brady,2000,Bowman Rookie,9,2100,eBay,2026-06-02
+Tom Brady,2000,Bowman Rookie,9,2225,130point,2026-06-06
+Tom Brady,2000,Bowman Rookie,9,2180,eBay,2026-06-10
+Tom Brady,2000,Bowman Rookie,9,2300,Marketplace,2026-06-15
+Wayne Gretzky,1979,O-Pee-Chee Rookie,6,2950,eBay,2026-06-01
+Wayne Gretzky,1979,O-Pee-Chee Rookie,6,3100,130point,2026-06-06
+Wayne Gretzky,1979,O-Pee-Chee Rookie,6,3025,eBay,2026-06-11
+Wayne Gretzky,1979,O-Pee-Chee Rookie,6,3200,Marketplace,2026-06-16
+Wayne Gretzky,1979,O-Pee-Chee Rookie,7,4300,eBay,2026-06-02
+Wayne Gretzky,1979,O-Pee-Chee Rookie,7,4550,130point,2026-06-07
+Wayne Gretzky,1979,O-Pee-Chee Rookie,7,4425,eBay,2026-06-13
+Wayne Gretzky,1979,O-Pee-Chee Rookie,7,4700,Marketplace,2026-06-19
+Lionel Messi,2004,Mega Cracks Rookie,7,980,eBay,2026-06-01
+Lionel Messi,2004,Mega Cracks Rookie,7,1040,130point,2026-06-05
+Lionel Messi,2004,Mega Cracks Rookie,7,1015,eBay,2026-06-09
+Lionel Messi,2004,Mega Cracks Rookie,7,1075,Marketplace,2026-06-13
+Lionel Messi,2004,Mega Cracks Rookie,8,1425,eBay,2026-06-03
+Lionel Messi,2004,Mega Cracks Rookie,8,1510,130point,2026-06-08
+Lionel Messi,2004,Mega Cracks Rookie,8,1475,eBay,2026-06-14
+Lionel Messi,2004,Mega Cracks Rookie,8,1550,Marketplace,2026-06-20
+Cristiano Ronaldo,2003,Panini Rookie,7,900,eBay,2026-06-01
+Cristiano Ronaldo,2003,Panini Rookie,7,950,130point,2026-06-05
+Cristiano Ronaldo,2003,Panini Rookie,7,925,eBay,2026-06-09
+Cristiano Ronaldo,2003,Panini Rookie,7,980,Marketplace,2026-06-13
+Cristiano Ronaldo,2003,Panini Rookie,8,1320,eBay,2026-06-02
+Cristiano Ronaldo,2003,Panini Rookie,8,1395,130point,2026-06-06
+Cristiano Ronaldo,2003,Panini Rookie,8,1360,eBay,2026-06-10
+Cristiano Ronaldo,2003,Panini Rookie,8,1440,Marketplace,2026-06-15
