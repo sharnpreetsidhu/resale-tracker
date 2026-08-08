@@ -27,7 +27,6 @@ from src.ui import (
     reason_box,
     render_hero,
     render_kpis,
-    render_sidebar_brand,
     render_signal_card,
     watch_card,
 )
@@ -37,7 +36,6 @@ st.set_page_config(
     page_title="Resale Tracker",
     page_icon="💎",
     layout="wide",
-    initial_sidebar_state="expanded",
 )
 
 apply_global_styles()
@@ -78,17 +76,7 @@ df = get_data()
 model_pack = get_model_pack(df)
 summary_df = summarize_market(df)
 
-render_sidebar_brand()
-st.sidebar.markdown("## 💎 Resale Tracker")
-st.sidebar.caption(
-    "Use the main search panel to scan cards. The app is scoped to 13 recognizable players "
-    "so the final demo stays clean and easy to explain."
-)
-st.sidebar.markdown("---")
-st.sidebar.caption(
-    "Prototype note: real card identities are used with structured price-guide-style sample comps. "
-    "A production version would connect to verified sold-listing APIs."
-)
+
 
 st.markdown(
     """

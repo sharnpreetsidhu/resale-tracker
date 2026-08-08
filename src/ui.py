@@ -64,24 +64,6 @@ def find_card_image(player: str, card: str, grade: int, base_dir: str = "assets/
     return None
 
 
-def render_sidebar_brand() -> None:
-    logo_uri = image_to_data_uri(Path("assets/brand/resale_tracker_logo.svg"))
-    logo_html = f'<img src="{logo_uri}" alt="Resale Tracker logo">' if logo_uri else "◆"
-
-    html = (
-        '<div class="sidebar-brand">'
-        '<div class="sidebar-brand-top">'
-        f'<div class="sidebar-logo">{logo_html}</div>'
-        '<div>'
-        '<div class="sidebar-title">Resale Tracker</div>'
-        '<div class="sidebar-subtitle">AI card comp scanner</div>'
-        '</div>'
-        '</div>'
-        '</div>'
-    )
-
-    st.sidebar.markdown(html, unsafe_allow_html=True)
-
 
 def apply_global_styles() -> None:
     st.markdown(
@@ -470,56 +452,6 @@ label, [data-testid="stWidgetLabel"]{
   margin-top:4px;
 }
 
-/* sidebar */
-.sidebar-brand{
-  margin:4px 0 18px;
-  padding:16px;
-  border-radius:22px;
-  background:
-    linear-gradient(135deg,rgba(56,189,248,.12),rgba(34,197,94,.08)),
-    rgba(15,23,42,.72) !important;
-  border:1px solid rgba(148,163,184,.18);
-  box-shadow:0 18px 48px rgba(0,0,0,.22);
-}
-
-.sidebar-brand-top{
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
-
-.sidebar-logo{
-  width:44px;
-  height:44px;
-  border-radius:15px;
-  display:grid;
-  place-items:center;
-  background:linear-gradient(135deg,rgba(56,189,248,.22),rgba(34,197,94,.18));
-  border:1px solid rgba(125,211,252,.28);
-  overflow:hidden;
-}
-
-.sidebar-logo img{
-  width:34px;
-  height:34px;
-  object-fit:contain;
-  filter:drop-shadow(0 0 12px rgba(56,189,248,.28));
-}
-
-.sidebar-title{
-  font-size:20px;
-  font-weight:950;
-  color:white;
-  letter-spacing:-.035em;
-  line-height:1;
-}
-
-.sidebar-subtitle{
-  font-size:12px;
-  color:#94A3B8;
-  margin-top:4px;
-  font-weight:800;
-}
 
 /* card slab */
 
